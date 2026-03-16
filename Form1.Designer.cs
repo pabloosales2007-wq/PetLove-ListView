@@ -48,6 +48,7 @@
             this.btnObterDados.Text = "Extrair Dados";
             this.btnObterDados.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnObterDados.UseVisualStyleBackColor = false;
+            this.btnObterDados.Click += new System.EventHandler(this.btnObterDados_Click);
             // 
             // pictureBox1
             // 
