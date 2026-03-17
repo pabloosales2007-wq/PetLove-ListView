@@ -63,13 +63,14 @@
             // 
             // lvDados
             // 
-            this.lvDados.Font = new System.Drawing.Font("Impact", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lvDados.ForeColor = System.Drawing.Color.White;
+            this.lvDados.BackgroundImage = global::PetLove_ListView.Properties.Resources.alucard_hellsing_wallpaper_by_arkhivelovey_d85dt74_375w_2x;
+            this.lvDados.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lvDados.ForeColor = System.Drawing.SystemColors.Window;
             this.lvDados.HideSelection = false;
-            this.lvDados.Location = new System.Drawing.Point(91, 59);
+            this.lvDados.Location = new System.Drawing.Point(80, 75);
             this.lvDados.Name = "lvDados";
-            this.lvDados.Size = new System.Drawing.Size(687, 287);
-            this.lvDados.TabIndex = 0;
+            this.lvDados.Size = new System.Drawing.Size(722, 269);
+            this.lvDados.TabIndex = 3;
             this.lvDados.UseCompatibleStateImageBehavior = false;
             // 
             // Form1
@@ -78,9 +79,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(876, 549);
+            this.Controls.Add(this.lvDados);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnObterDados);
-            this.Controls.Add(this.lvDados);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

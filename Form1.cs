@@ -33,7 +33,7 @@ namespace PetLove_ListView
 
             if (leitura.ShowDialog() != DialogResult.OK) return;
 
-                caminho = leitura.FileName;
+            caminho = leitura.FileName;
 
             try
             {
