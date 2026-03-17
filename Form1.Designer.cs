@@ -72,6 +72,7 @@
             this.lvDados.Size = new System.Drawing.Size(722, 269);
             this.lvDados.TabIndex = 3;
             this.lvDados.UseCompatibleStateImageBehavior = false;
+            this.lvDados.View = System.Windows.Forms.View.List;
             // 
             // Form1
             // 
