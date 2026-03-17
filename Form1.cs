@@ -31,7 +31,7 @@ namespace PetLove_ListView
         {
             leitura.Title = "Selecione o arquivo que contem os dados desejados";
 
-            if (leitura.ShowDialog() == DialogResult.OK) return;
+            if (leitura.ShowDialog() != DialogResult.OK) return;
 
                 caminho = leitura.FileName;
 

@@ -90,10 +90,9 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ListView lvDados;
         private System.Windows.Forms.Button btnObterDados;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ListView lvDados;
     }
 }
 
