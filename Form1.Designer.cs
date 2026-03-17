@@ -63,7 +63,6 @@
             // 
             // lvDados
             // 
-            this.lvDados.BackgroundImage = global::PetLove_ListView.Properties.Resources.alucard_hellsing_wallpaper_by_arkhivelovey_d85dt74_375w_2x;
             this.lvDados.Font = new System.Drawing.Font("Impact", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvDados.ForeColor = System.Drawing.Color.White;
             this.lvDados.HideSelection = false;
